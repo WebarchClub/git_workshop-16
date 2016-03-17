@@ -1,2 +1,4 @@
 Hello !
 Hope you had fun learning git. :)
+
+Yeah That was fun!! ;)
