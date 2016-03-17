@@ -30,7 +30,7 @@ git reset HEAD <filename>
 git config --global http.proxy 172.16.0.2:8080
 ```
 ```git 
-git config --unset http.proxy
+git config --global --unset http.proxy
 ```
  * Google the commands you are not sure about.
  * Google the errors if you come across any.
