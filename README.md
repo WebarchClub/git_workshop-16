@@ -6,7 +6,7 @@ Feel free to make any changes to this repo. Everyone should make 'atleast' 4-5 c
 git clone <URL of this repo>
 ```
 
-### Try the following commands.
+### Try any command you want especially following commands and search on google to find more about them.
 ```git 
 git pull -r origin master
 ```
@@ -14,9 +14,15 @@ git pull -r origin master
 git push origin master
 ```
 ```git 
-git pull origin master
+git revert HEAD
 ```
-
+```git 
+git checkout master
+git checkout <filename>
+```
+```git 
+git reset HEAD <filename>
+```
 ### Remeber to:
 
  * Change the proxy accordingly.
