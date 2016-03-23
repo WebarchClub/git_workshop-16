@@ -1,0 +1,21 @@
+Difference between long, long long, long int and long long int in c
+long and long int are identical. So are long long and long long int. In both cases, the int is optional.
+
+As to the difference between the two sets, the C++ standard mandates minimum ranges for each, and that long long is at least as wide as long.
+
+The controlling parts of the standard (C++11, but this has been around for a long time) are, for one, 3.9.1 Fundamental types, section 2 (a later section gives similar rules for the unsigned integral types):
+
+There are five standard signed integer types : signed char, short int, int, long int, and long long int. In this list, each type provides at least as much storage as those preceding it in the list.
+There's also a table 9 in 7.1.6.2 Simple type specifiers, which shows the "mappings" of the specifiers to actual types (showing that the int is optional), a section of which is shown below:
+
+Specifier(s)         Type
+-------------    -------------
+long long int    long long int
+long long        long long int
+long int         long int
+long             long int
+Note the distinction there between the specifier and the type. The specifier is how you tell the compiler what the type is but you can use different specifiers to end up at the same type.
+
+Hence long on its own is neither a type nor a modifier as your question posits, it's simply a specifier for the long int type. Ditto for long long being a specifier for the long long int type.
+
+Although the C++ standard itself doesn't specify the minimum ranges of integral types, it does cite C99, in 1.2 Normative references, as applying. Hence the minimal ranges as set out in C99 5.2.4.2.1 Sizes of integer types <limits.h> are applicable.
