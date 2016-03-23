@@ -1,1 +1,347 @@
 starting git assignment
+editing YouTube page
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	#navbar
+{
+	border-bottom:1px solid #CCC;
+	box-shadow:0px 0px 0.4px 0px #666666;
+	height:35px;
+	width: 700px;
+	margin-left: 18px;
+	margin-right:-10px;
+	margin-top:-15px;
+	border-top-color:#FFF;
+}
+.search
+{
+float:right;
+}
+.rightnav
+{
+	height: 35px;
+	width: 270px;
+	border-bottom:1px solid #CCC;
+	box-shadow:2px 2px 2px 2px #666666;
+	margin-right:-370px;
+	margin-top: -34px;
+	border-top-color:#FFF;
+	float:right;
+	text-align: center;
+	padding: 0.5%;
+}
+
+.tab1
+{
+	height: 100px;
+	width: 270px;
+	border-bottom:1px solid #CCC;
+	margin-right:-370px;
+	margin-top: 15px;
+	float:right;
+	text-align: center;
+	padding: 0.5%;
+	border-top:0px solid white;
+}
+
+.tab2
+{
+	height: 100px;
+	width: 270px;
+	border: 1px solid #CCC;
+	float: right;
+	margin-top: 15px;
+	margin-right:-370px;
+	position: relative;
+	border-top:0px solid white;
+	padding: 0.5%;
+	font-family: cursive;
+	font-size: 12px;
+}
+
+.tab3
+{
+	height: 100px;
+	width: 270px;
+	border: 1px solid #CCC;
+	float: right;
+	border-top:0px solid white;
+	margin-top: 125px;
+	margin-right:-370px;
+	position: relative;
+	padding: 0.5%;
+	font-family: cursive;
+	font-size: 12px;
+}
+
+.tab4
+{
+	height: 100px;
+	width: 270px;
+	border: 1px solid #CCC;
+	float: right;
+	margin-top: 235px;
+	margin-right:-370px;
+	position: relative;
+	border-top:0px solid white;
+	padding: 0.5%;
+	font-family: cursive;
+	font-size: 12px;
+}
+
+.tab5
+{
+	height: 100px;
+	width: 270px;
+	border: 1px solid #CCC;
+	float: right;
+	margin-top: 345px;
+	margin-right:-370px;
+	position: relative;
+	padding: 0.5%;
+	font-family: cursive;
+	border-top:0px solid white;
+	font-size: 12px;
+}
+
+
+#vedio {
+	height: 385px;
+	width: 685px;
+	border-bottom:0px solid #CCC;
+	box-shadow:2px 2px 2px 2px #666666;
+	border-top-color:#FFF;
+	margin-left: 18px;
+	margin-top: 15px;
+}
+
+#text {
+	font-family: Sans-serif, verdana;
+	font-size: 20px;
+	background-color: #CCC;
+	margin-top: 5px;
+	margin-left: 18px;
+	border: 1px solid #CCC;
+	width:685px;
+	box-shadow:2px 2px 2px 2px #666666;
+	height:75px;
+	padding: 1%;
+	margin-bottom: 9px;
+}
+
+.logo {
+	float:left;
+	
+}
+
+#div a span {
+	position: relative;
+}
+
+#ct1 {
+	border: 1px solid #CCC;
+	height:59px;
+	margin-left: 18px;
+	margin-top:13px;
+	font-size: 15px;
+	background-color: white;
+	box-shadow:2px 2px 2px 2px #666666;
+}
+#ct2 {
+	border: 1px solid #CCC;
+	height:59px;
+	margin-left: 18px;
+	margin-top:1px;
+	font-size: 15px;
+	background-color: white;
+	box-shadow:2px 2px 2px 2px #666666;
+}
+#ct3 {
+	border: 1px solid #CCC;
+	height:60px;
+	margin-left: 18px;
+	margin-top:1px;
+	font-size: 15px;
+	background-color: white;
+	box-shadow:2px 2px 2px 2px #666666;
+}
+#ct4 {
+	border: 1px solid #CCC;
+	height:59px;
+	margin-left: 18px;
+	margin-top:1px;
+	font-size: 15px;
+	background-color: white;
+	box-shadow:2px 2px 2px 2px #666666;
+}
+#ct5 {
+	border: 1px solid #CCC;
+	height:60px;
+	margin-left: 18px;
+	margin-top:1px;
+	font-size: 15px;
+	background-color: white;
+	box-shadow:2px 2px 2px 2px #666666;
+}
+.ctwala {
+	height:30px;
+	width:30px;
+	float:left;
+	font-size: 14px;
+	margin-top: 1px;
+	color:black;
+	
+}
+.sbbs {
+	height:40px;
+	width: 80px;
+	margin-left: 625px;
+	margin-top: -45px;
+	
+}
+.lowbar {
+	height: 20px;
+	width: 700px;
+	border-bottom:0px solid #CCC;
+	box-shadow:0px 0px 0.5px 0px #666666;
+	border-top-color:#FFF;
+	border: 1px solid;
+	margin-top: 0px;
+}
+.colorz {
+	margin-bottom: 20px;	
+}
+
+</style>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">YouTube</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Latest<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">fuck</a></li>
+          <li><a href="#">this</a></li>
+          <li><a href="#">shit</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Comedy</a></li>
+      <li><a href="#">Regular</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3></h3>
+  <p></p>
+</div>
+<div>
+<div id="navbar">
+<p class="search">
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+  </p>
+</div>
+</div>
+
+
+
+<div class="rightnav">Upcoming Videos</div>
+<div class="tabs">
+<div class="tab1"></div>
+<div class="tab2"><img  class="logo" src="img4.jpg"  width="70px" height="90px">Batman v Superman: Dawn of Justice - Official Trailer [HD]<br>
+Warner Bros<br><br>10,983,324views</div>
+<div class="tab3"><img  class="logo" src="img5.jpg"  width="70px" height="90px">Batman VS Batman:<br> Which Actor Played Him Best?
+Screen Rant<br><br>10,983,324views</div>
+<div class="tab4"><img  class="logo" src="img6.jpeg"  width="70px" height="90px">The Legend of Tarzan - Official Teaser Trailer [HD]<br>
+Warner Bros. Pictures<br><br>10,983,324views</div>
+<div class="tab5"><img  class="logo" src="20.jpg"  width="70px" height="90px" alt="Computer Hope">Batman v Superman Dawn of Justice<br>Ben Affleck Gal Gadot<br><br>367 views</div>
+</div>
+
+
+<div id="vedio"><img src="toto.jpg" height="380px" width="680px">
+</div>
+
+<div id="text">You Need To Watch This LOL<br>
+Warner Bros [HD] California<br></div>
+
+<div>
+<div class="badges">
+  <a href="#" style="margin-left:22px">Likes <span class="badge">23,423,435</span></a><br>
+  <a href="#" style="margin-left:22px">Comments <span class="badge">158,430</span></a><br>
+  <a href="#" style="margin-left:22px">Updates <span class="badge">20k+</span></a>
+</div>
+<div class="sbb"><img class="sbbs" src="sbb.png"></div>
+</div>
+
+<div class="cts"><span style="font-size: 20px ; margin-left:18px"><strong>Comments:</strong></span>
+<div id="ct1"><img class="ctwala" src="img2.jpeg"><span style="color:blue">Siddhant_Jain</span><br>
+<span style="font-size: 12px">As part of the marketing strategy for many pages, this Like button is used as a 'gate' before any potential customer gets to see detailed info or perform downloads </span></div>
+<div id="ct2"><img class="ctwala" src="back.jpg"><span style="color:blue">Saloni_Jain</span><br>
+<span style="font-size: 12px">A simple Facebook Like Button plugin for your posts/archive/pages or Home page. ... You can download the latest POT file, and PO files in each language</span></div>
+<div id="ct3"><img class="ctwala" src="img5.jpg"><span style="color:blue">Ayushy Jain</span><br>
+<span style="font-size: 12px">Since a percentage of image width and height is specified, the browser can resize nearly any image and maintain its aspect ratio.</span></div>
+<div id="ct4"><img class="ctwala" src="img6.jpeg"><span style="color:blue">Unnati_Jain</span><br>
+<span style="font-size: 12px">The second example specifies a percentage of original image size, both width and height, instead of size in pixels.</span></div>
+<div id="ct5"><img class="ctwala" src="img4.jpg"><span style="color:blue">Sanjay_Jain</span><br>
+<span style="font-size: 12px">Since a percentage of image width and height is specified, the browser can resize nearly any image and maintain its aspect ratio.</span></div>
+</div>
+
+<div class="container">
+  <h4 style="font-family: cursive">YouTube Ratings:</h4>
+  <p>The contextual classes represent the various attributes in <span style="font-family: cursive"><strong>YouTube</strong></span>:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      40% Quality
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      50% Resolution
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+      60% Clarity
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-lol" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      70% Time-Control
+    </div>
+  </div>
+</div>
+
+<div class="colorz">
+  <h4 style="margin-left:30px">More Options:</h4>
+  <p></p>  
+  <span class="label label-default" style="margin-left:30px">YouTube</span>
+  <span class="label label-primary" style="margin-left:30px">Desi-hit</span>
+  <span class="label label-success" style="margin-left:30px">DailyMotion</span>
+  <span class="label label-info" style="margin-left:30px">XXX vedios</span>
+  <span class="label label-warning" style="margin-left:30px">HotStar</span>
+  <span class="label label-danger" style="margin-left:30px">Vo_Watch</span>
+</div>
+
+</body>
+</html>
